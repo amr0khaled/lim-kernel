@@ -1,0 +1,11 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bootloader_api = "0.11.17"
+lazy_static = { version = "1.5.0", features = ["spin_no_std"]}
+spin = "0.12.1"
+static_cell = "2.1.1"
+volatile = "0.6.1"
